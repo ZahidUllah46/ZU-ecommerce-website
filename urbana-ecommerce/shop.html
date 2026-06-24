@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop All Products — ZU</title>
+  <meta name="description" content="Browse, search, filter and sort the full ZU catalog.">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <div id="navbar-slot"></div>
+
+  <!-- Page header -->
+  <div class="bg-ink text-white py-5">
+    <div class="container">
+      <div class="section-eyebrow mb-2" style="color:var(--signal);">Full Catalog</div>
+      <h1 class="section-title text-white">Shop all products</h1>
+    </div>
+  </div>
+
+  <main class="container py-5 flex-grow-1">
+    <div class="row g-4">
+
+      <!-- ===================== FILTERS SIDEBAR ===================== -->
+      <aside class="col-lg-3">
+        <div class="filters-panel mb-3">
+          <h6>Search</h6>
+          <div class="input-group">
+            <span class="input-group-text bg-white"><i class="bi bi-search"></i></span>
+            <input type="text" id="search-input" class="form-control" placeholder="Search products...">
+          </div>
+        </div>
+
+        <div class="filters-panel mb-3">
+          <h6>Category</h6>
+          <div id="category-filter-list">
+            <!-- Checkboxes filled by JS, derived from CATEGORIES -->
+          </div>
+        </div>
+
+        <div class="filters-panel mb-3">
+          <h6>Price Range</h6>
+          <div class="d-flex gap-2 align-items-center mb-2">
+            <input type="number" id="price-min" class="form-control form-control-sm" placeholder="Min" min="0">
+            <span class="text-muted">—</span>
+            <input type="number" id="price-max" class="form-control form-control-sm" placeholder="Max" min="0">
+          </div>
+          <button id="apply-price-btn" class="btn btn-outline-ink btn-sm w-100">Apply</button>
+        </div>
+
+        <button id="clear-filters-btn" class="btn btn-signal btn-sm w-100">
+          <i class="bi bi-x-circle"></i> Clear All Filters
+        </button>
+      </aside>
+
+      <!-- ===================== PRODUCT GRID ===================== -->
+      <section class="col-lg-9">
+        <div class="results-bar">
+          <div id="results-count" class="text-muted small">Showing 0 products</div>
+          <div class="d-flex align-items-center gap-2">
+            <label for="sort-select" class="small text-muted mb-0">Sort by</label>
+            <select id="sort-select" class="form-select form-select-sm" style="width:auto;">
+              <option value="default">Featured</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="rating-desc">Top Rated</option>
+              <option value="name-asc">Name: A–Z</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row g-4" id="product-grid">
+          <!-- Filled by JS -->
+        </div>
+
+        <div class="no-results d-none" id="no-results-state">
+          <i class="bi bi-search d-block"></i>
+          <h5>No products found</h5>
+          <p class="mb-3">Try a different search term or clear your filters.</p>
+          <button class="btn btn-outline-ink btn-sm" onclick="document.getElementById('clear-filters-btn').click()">Clear Filters</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="footer-slot"></div>
+  <div id="toast-slot"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/ui.js"></script>
+  <script>window.ACTIVE_NAV = "shop";</script>
+  <script src="js/partials.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>
