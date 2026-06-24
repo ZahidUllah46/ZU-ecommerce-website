@@ -3,27 +3,22 @@
 A complete, responsive e-commerce website built with **HTML5, CSS3, JavaScript (ES6), and Bootstrap 5** as a Web Development Internship capstone project.
 
 **Author:** Zahid Ullah — BS Software Engineering, University of Mianwali
-📞 0304-9410498 · [LinkedIn](https://www.linkedin.com/in/zahid-ullah-067aa7283) · [Instagram](https://www.instagram.com/zahidullah9102) · [Facebook](https://www.facebook.com/share/1DPZGQtbpm/)
+ 0304-9410498 · [LinkedIn](https://www.linkedin.com/in/zahid-ullah-067aa7283) · [Instagram](https://www.instagram.com/zahidullah9102) · [Facebook](https://www.facebook.com/share/1DPZGQtbpm/)
 
----
 
-## 🌐 Live Preview
+##  Live Preview
 
 Open `index.html` in any modern browser — no build step, no server, no dependencies to install. Everything runs client-side.
 
 For the best experience (so relative paths and fonts load cleanly), serve it locally:
 
-```bash
+bash
 # From the project folder
 python3 -m http.server 8000
 # then open http://localhost:8000
-```
 
----
+##  Folder Structure
 
-## 📁 Folder Structure
-
-```
 urbana-ecommerce/
 ├── index.html              # Home page
 ├── shop.html                # Shop / Products page (search, filter, sort)
@@ -50,11 +45,8 @@ urbana-ecommerce/
     ├── Reflection.md                   # Personal learning reflection
     ├── LinkedIn_Post.md                # Ready-to-publish LinkedIn post
     └── Demo_Presentation_Script.md     # 5-minute demo script
-```
 
----
-
-## ✨ Features
+##  Features
 
 | Feature | Where |
 |---|---|
@@ -72,29 +64,23 @@ urbana-ecommerce/
 | Toast notifications | All pages |
 | Fully responsive (mobile/tablet/desktop) | All pages |
 
----
 
-## 🎨 Design System
+##  Design System
 
 - **Colors:** Ink black (`#0F1115`), warm paper (`#FAF8F4`), signal orange (`#FF5A36`)
 - **Typography:** Space Grotesk (display/headings) + Inter (body/UI)
 - **Signature element:** A rotated "hang-tag" price label echoing a real clothing price tag
 
----
-
-## 🧠 Architecture Notes
+## Architecture Notes
 
 - **No backend** — all product data lives in `js/products.js`. Swapping this for an API call later would not require changing any other file, since every page reads from the same `PRODUCTS` array.
 - **One cart module** — every page includes `cart.js`, so add/remove/update logic exists in exactly one place.
 - **Shared partials** — the navbar and footer are rendered once in `partials.js` and injected into a placeholder `<div>` on each page, avoiding five copies of the same markup.
 
----
-
-## 📄 Documentation
+## Documentation
 
 See the `docs/` folder for the full project report, personal reflection, LinkedIn post, and demo script — all written to accompany this submission.
 
----
 
 *Built with HTML, CSS, JavaScript & Bootstrap 5 — June 2026*
 
