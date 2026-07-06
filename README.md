@@ -2,7 +2,7 @@
 
 A complete, responsive e-commerce website built with **HTML5, CSS3, JavaScript (ES6), and Bootstrap 5** as a Web Development Internship capstone project.
 
-**Author:** Zahid Ullah — BS Software Engineering, University of Mianwali
+Author:Zahid Ullah — BS Software Engineering, University of Mianwali
  0304-9410498 · [LinkedIn](https://www.linkedin.com/in/zahid-ullah-067aa7283) · [Instagram](https://www.instagram.com/zahidullah9102) · [Facebook](https://www.facebook.com/share/1DPZGQtbpm/)
 
 
@@ -67,13 +67,13 @@ urbana-ecommerce/
 
 ##  Design System
 
-- **Colors:** Ink black (`#0F1115`), warm paper (`#FAF8F4`), signal orange (`#FF5A36`)
-- **Typography:** Space Grotesk (display/headings) + Inter (body/UI)
-- **Signature element:** A rotated "hang-tag" price label echoing a real clothing price tag
+- Colors: Ink black (`#0F1115`), warm paper (`#FAF8F4`), signal orange (`#FF5A36`)
+- Typography: Space Grotesk (display/headings) + Inter (body/UI)
+- Signature element: A rotated "hang-tag" price label echoing a real clothing price tag
 
 ## Architecture Notes
 
-- **No backend** — all product data lives in `js/products.js`. Swapping this for an API call later would not require changing any other file, since every page reads from the same `PRODUCTS` array.
+-No backend — all product data lives in `js/products.js`. Swapping this for an API call later would not require changing any other file, since every page reads from the same `PRODUCTS` array.
 - **One cart module** — every page includes `cart.js`, so add/remove/update logic exists in exactly one place.
 - **Shared partials** — the navbar and footer are rendered once in `partials.js` and injected into a placeholder `<div>` on each page, avoiding five copies of the same markup.
 
@@ -82,5 +82,5 @@ urbana-ecommerce/
 See the `docs/` folder for the full project report, personal reflection, LinkedIn post, and demo script — all written to accompany this submission.
 
 
-*Built with HTML, CSS, JavaScript & Bootstrap 5 — June 2026*
+Built with HTML, CSS, JavaScript & Bootstrap 5 — June 2026
 
