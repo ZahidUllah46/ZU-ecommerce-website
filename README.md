@@ -3,12 +3,13 @@
 A complete, responsive e-commerce website built with **HTML5, CSS3, JavaScript (ES6), and Bootstrap 5** as a Web Development Internship capstone project.
 
 Author:Zahid Ullah — BS Software Engineering, University of Mianwali
+
  0304-9410498 · [LinkedIn](https://www.linkedin.com/in/zahid-ullah-067aa7283) · [Instagram](https://www.instagram.com/zahidullah9102) · [Facebook](https://www.facebook.com/share/1DPZGQtbpm/)
 
 
 ##  Live Preview
 
-Open `index.html` in any modern browser — no build step, no server, no dependencies to install. Everything runs client-side.
+Open index.html in any modern browser — no build step, no server, no dependencies to install. Everything runs client-side.
 
 For the best experience (so relative paths and fonts load cleanly), serve it locally:
 
@@ -80,7 +81,6 @@ urbana-ecommerce/
 ## Documentation
 
 See the `docs/` folder for the full project report, personal reflection, LinkedIn post, and demo script — all written to accompany this submission.
-
 
 Built with HTML, CSS, JavaScript & Bootstrap 5 — June 2026
 
