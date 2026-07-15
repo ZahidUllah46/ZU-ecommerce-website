@@ -3,11 +3,11 @@
 A complete, responsive e-commerce website built with **HTML5, CSS3, JavaScript (ES6), and Bootstrap 5** as a Web Development Internship capstone project.
 
 **Author:** Zahid Ullah — BS Software Engineering, University of Mianwali
-📞 0304-9410498 · [LinkedIn](https://www.linkedin.com/in/zahid-ullah-067aa7283) · [Instagram](https://www.instagram.com/zahidullah9102) · [Facebook](https://www.facebook.com/share/1DPZGQtbpm/)
+0304-9410498 · [LinkedIn](https://www.linkedin.com/in/zahid-ullah-067aa7283) · [Instagram](https://www.instagram.com/zahidullah9102) · [Facebook](https://www.facebook.com/share/1DPZGQtbpm/)
 
 ---
 
-## 🌐 Live Preview
+##  Live Preview
 
 Open `index.html` in any modern browser — no build step, no server, no dependencies to install. Everything runs client-side.
 
@@ -21,7 +21,7 @@ python3 -m http.server 8000
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 urbana-ecommerce/
@@ -54,7 +54,7 @@ urbana-ecommerce/
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Where |
 |---|---|
@@ -74,7 +74,7 @@ urbana-ecommerce/
 
 ---
 
-## 🎨 Design System
+##  Design System
 
 - **Colors:** Ink black (`#0F1115`), warm paper (`#FAF8F4`), signal orange (`#FF5A36`)
 - **Typography:** Space Grotesk (display/headings) + Inter (body/UI)
@@ -82,7 +82,7 @@ urbana-ecommerce/
 
 ---
 
-## 🧠 Architecture Notes
+##  Architecture Notes
 
 - **No backend** — all product data lives in `js/products.js`. Swapping this for an API call later would not require changing any other file, since every page reads from the same `PRODUCTS` array.
 - **One cart module** — every page includes `cart.js`, so add/remove/update logic exists in exactly one place.
@@ -90,7 +90,7 @@ urbana-ecommerce/
 
 ---
 
-## 📄 Documentation
+##  Documentation
 
 See the `docs/` folder for the full project report, personal reflection, LinkedIn post, and demo script — all written to accompany this submission.
 
