@@ -13,7 +13,6 @@ Open index.html in any modern browser — no build step, no server, no dependenc
 
 For the best experience (so relative paths and fonts load cleanly), serve it locally:
 
-bash
 # From the project folder
 python3 -m http.server 8000
 # then open http://localhost:8000
