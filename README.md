@@ -48,6 +48,7 @@ urbana-ecommerce/
 
 ##  Features
 
+
 | Feature | Where |
 |---|---|
 | Product search (live, case-insensitive) | Shop page |
@@ -64,12 +65,12 @@ urbana-ecommerce/
 | Toast notifications | All pages |
 | Fully responsive (mobile/tablet/desktop) | All pages |
 
-
 ##  Design System
 
 - Colors: Ink black (`#0F1115`), warm paper (`#FAF8F4`), signal orange (`#FF5A36`)
 - Typography: Space Grotesk (display/headings) + Inter (body/UI)
 - Signature element: A rotated "hang-tag" price label echoing a real clothing price tag
+
 
 ## Architecture Notes
 
